@@ -28,7 +28,7 @@ h1 {
 /* How it looks like when we hover in project - name */
 h1:hover{
 	color: rgba(216, 248, 10, 0.758);
-	font-size: 45px;
+	font-size: 40px;
 }
 /* button height width */
 #red{
@@ -124,6 +124,8 @@ h1:hover{
 	flex-direction: column-reverse;
 	margin: 0;
 	padding: 0;
+	border: 0;
+	background: none;
 }
 #yellow{
 	
