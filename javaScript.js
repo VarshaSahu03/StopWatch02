@@ -7,7 +7,7 @@ let resetBtn = document.getElementById('reset');
 let hour = 00;
 let minute = 00;
 let second = 00;
-let count = 000; //display mili-second
+let count = 00; //display mili-second
 
 //click start button
 startBtn.addEventListener('click', function () {
@@ -36,7 +36,7 @@ resetBtn.addEventListener('click', function () {
 //stopWatch function calc
 function stopWatch() {
 	if (timer) {
-		count=count+10;
+		count++;
 
          //milisecond
 	 // 1000 milisecond=1second
